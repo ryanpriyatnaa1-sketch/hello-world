@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    environment {
-        IMAGE = "USERNAME_DOCKERHUB/hello-world:latest"
-    }
+  environment {
+    IMAGE = "ryanpriyatna/hello-world:latest"
+}
 
     stages {
 
